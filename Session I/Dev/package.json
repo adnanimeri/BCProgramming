@@ -1,0 +1,15 @@
+{
+  "name": "dev",
+  "version": "1.0.0",
+  "git": "git@github.com:adnanimeri/BCProgramming.git",
+  "description": "This is the first course in the \"introduction to blockchain programming\" ",
+  "main": "B64.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adnan IMERI",
+  "license": "ISC",
+  "dependencies": {
+    "crypto.js": "^3.0.0"
+  }
+}
