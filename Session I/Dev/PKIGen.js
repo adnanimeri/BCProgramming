@@ -4,7 +4,7 @@
 
 var crypto = require('crypto');
 
-var prime_length = 450; //the lenge of key .... change it 60, 100, 250, 450,...
+var prime_length = 1000; //the lenge of key .... change it 60, 100, 250, 450,...
 var diffHell = crypto.createDiffieHellman(prime_length);
 
 diffHell.generateKeys('base64');

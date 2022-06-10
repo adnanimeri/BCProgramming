@@ -1,4 +1,4 @@
-const { time } = require("console");
+
 const crypto = require("crypto");
 
 // The `generateKeyPairSync` method accepts two arguments:
@@ -58,5 +58,3 @@ const decryptedData = crypto.privateDecrypt(
   console.log("decrypted data: ", decryptedData.toString());
 
   console.log("\n")
-
-  
