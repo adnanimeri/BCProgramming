@@ -17,7 +17,7 @@ console.log("Hello, this is my public key: ", publicKey , "\n")
 
 
 // This is the data we want to encrypt
-const data = "this is my secret message!!";
+const data = "this is my secret message in Session 2 !!";
 
 const encryptedData = crypto.publicEncrypt(
   {
